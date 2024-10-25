@@ -17,7 +17,7 @@ import {
 } from "@/components/ui/dialog";
 import { useGoogleLogin } from '@react-oauth/google'; // Import the hook
 import { FcGoogle } from "react-icons/fc";
-import { db } from '@/service/firebaseconfig';
+import { db } from '@/service/firebaseConfig'; // Adjust if your file is named differently
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { useNavigate } from 'react-router-dom';
 

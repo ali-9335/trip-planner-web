@@ -119,7 +119,7 @@ function CreateTrip() {
         await SaveAiTrip(tripResponse);
       }
     } catch (error) {
-      console.error('Error generating trip:', error);
+      console.error('Error generating trips:', error);
     } finally {
       setloading(false); // Ensure loading state is reset
     }

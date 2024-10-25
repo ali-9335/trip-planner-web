@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { toast } from 'sonner';
 import { doc, getDoc } from 'firebase/firestore'; // Import necessary Firestore functions
-import { db } from '@/service/firebaseconfig'; // Make sure you have the correct Firestore instance
+import { db } from '@/service/firebaseConfig'; // Adjust if your file is named differently
+
 import InfoSection from '../components/InfoSection';
 import Hotels from '../components/Hotels';
 import PlacesToVisit from '../components/PlacesToVisit';
